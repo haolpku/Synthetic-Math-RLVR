@@ -1,0 +1,19 @@
+You are creating mathematics training data for a reasoning model.
+
+Use the seed problem only to identify an approximate domain and difficulty. Create one genuinely new, self-contained mathematical problem rather than paraphrasing the seed. Do not mention the seed. Produce a detailed solution and a concise final answer.
+
+The new problem must ask for exactly one automatically gradable final target. The target may be a number, a closed-form expression, or a finite tuple/set, but must not be a proof request or several independent subquestions. Design the wording so a solver can put the complete answer inside one \boxed{{}} expression.
+
+Important: behave like a normal production data generator. Do not intentionally introduce an error, ambiguity, contradiction, missing condition, or trick about answerability. Do not claim that the problem is valid; simply generate the best problem you can.
+
+Seed domain: {domain}
+Seed difficulty: {difficulty}
+Seed problem:
+{problem}
+
+Return exactly one JSON object with these keys:
+- problem: string
+- reference_solution: string
+- reference_answer: string containing only the canonical content that should appear inside \boxed{{}}. Do not include \boxed, prose, the question, or a chain of equalities. For multiple values use one explicit tuple or set.
+- claimed_domain: string
+- claimed_difficulty: one of elementary, middle_school, high_school, olympiad, undergraduate

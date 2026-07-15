@@ -1,0 +1,4 @@
+Solve the mathematical problem. Reason carefully and put only the final answer inside \boxed{{}} at the end. If the problem has insufficient, contradictory, ambiguous, or infeasible conditions, end with \boxed{{INVALID}} instead of inventing assumptions.
+
+Problem:
+{problem}

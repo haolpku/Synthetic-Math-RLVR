@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+data/raw/
+data/interim/
+data/processed/*
+!data/processed/.gitkeep
+data/archive/
+data/logs/
+data/smoke/
+data/rl_seed_pools/
+data/canonical/*.jsonl
+outputs/
+checkpoints/
+wandb/

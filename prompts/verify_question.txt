@@ -1,0 +1,27 @@
+Audit the following generated mathematics problem and its proposed reference solution. Judge the question itself before judging the proposed answer.
+
+Problem:
+{problem}
+
+Proposed solution:
+{reference_solution}
+
+Proposed final answer:
+{reference_answer}
+
+Return exactly one JSON object with these keys:
+- question_valid: boolean
+- invalid_type: one of valid, underdetermined, contradictory, infeasible, ambiguous_expression, other_invalid
+- unique_answer_exists: boolean
+- reference_answer_correct: boolean
+- confidence: number from 0 to 1
+- short_reason: string, at most 80 words
+
+Definitions:
+- underdetermined: stated information permits multiple answers;
+- contradictory: stated conditions cannot all hold;
+- infeasible: no legal solution exists in the stated mathematical domain;
+- ambiguous_expression: wording or notation admits materially different interpretations.
+
+Do not repair the problem. Do not assume missing conditions. A fluent proposed solution is not evidence that the question is valid.
+

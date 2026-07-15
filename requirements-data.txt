@@ -1,0 +1,6 @@
+# Data preparation uses the Python standard library.
+# Optional parquet export for verl:
+pandas>=2.2
+pyarrow>=16
+datasketch>=1.6
+json-repair>=0.44

@@ -1,0 +1,53 @@
+{
+  "available_clean_by_source": {
+    "amc_aime": 808,
+    "cn_contest": 10670,
+    "inequalities": 1108,
+    "number_theory": 603,
+    "olympiads_ref": 895
+  },
+  "contaminated_candidate_count": 107,
+  "dataset": "nlile/NuminaMath-1.5-RL-Verifiable",
+  "eligible_after_exact_dedup": 14191,
+  "eligible_before_exact_dedup": 14201,
+  "evaluation_datasets": [
+    "math",
+    "olympiadbench",
+    "college_math",
+    "minerva_math",
+    "aime24",
+    "amc23"
+  ],
+  "evaluation_question_count": 8835,
+  "input_parquet": "/Users/lianghao/Desktop/记忆张量/RewardingInvalidQuestions/data/raw/numinamath/data/train-00000-of-00001.parquet",
+  "input_sha256": "e225637a220df6713f419d6972f0d9f355d786a00d59a1e0244a26af12f3d9fa",
+  "near_duplicate_threshold": 0.8,
+  "output": "/Users/lianghao/Desktop/记忆张量/RewardingInvalidQuestions/data/canonical/numina_5k_seeds.jsonl",
+  "requested_source_quotas": {
+    "amc_aime": 862,
+    "cn_contest": 2388,
+    "inequalities": 500,
+    "number_theory": 500,
+    "olympiads_ref": 750
+  },
+  "selected_by_source": {
+    "amc_aime": 808,
+    "cn_contest": 2442,
+    "inequalities": 500,
+    "number_theory": 500,
+    "olympiads_ref": 750
+  },
+  "selected_by_split": {
+    "development": 500,
+    "held_out_audit": 500,
+    "train": 4000
+  },
+  "selection_seed": 20260714,
+  "source_quotas": {
+    "amc_aime": 808,
+    "cn_contest": 2442,
+    "inequalities": 500,
+    "number_theory": 500,
+    "olympiads_ref": 750
+  }
+}

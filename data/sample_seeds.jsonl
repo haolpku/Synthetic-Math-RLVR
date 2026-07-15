@@ -1,0 +1,6 @@
+{"seed_id":"seed_algebra_001","source":"author_created","domain":"algebra","difficulty":"middle_school","problem":"A store discounts a jacket by 20%, then applies a coupon for 15 dollars. The final price is 65 dollars. What was the original price?","answer":"100"}
+{"seed_id":"seed_number_001","source":"author_created","domain":"number_theory","difficulty":"high_school","problem":"Find the least positive integer that leaves remainder 2 when divided by 5 and remainder 4 when divided by 7.","answer":"32"}
+{"seed_id":"seed_geometry_001","source":"author_created","domain":"geometry","difficulty":"high_school","problem":"A right triangle has legs of lengths 9 and 12. What is the radius of its incircle?","answer":"3"}
+{"seed_id":"seed_probability_001","source":"author_created","domain":"probability","difficulty":"high_school","problem":"Two fair six-sided dice are rolled. What is the probability that their sum is at least 10?","answer":"1/6"}
+{"seed_id":"seed_combinatorics_001","source":"author_created","domain":"combinatorics","difficulty":"high_school","problem":"How many five-letter strings over the alphabet {A,B,C} contain exactly two occurrences of A?","answer":"80"}
+

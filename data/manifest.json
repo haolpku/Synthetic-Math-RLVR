@@ -1,0 +1,98 @@
+{
+  "artifacts": {
+    "data/canonical/numina_5k_manifest.json": {
+      "bytes": 1461,
+      "sha256": "622e3a608f25ddbdefb8021f2f0bac5d2cf2cc4128833621df0aabf892d4f36e"
+    },
+    "data/canonical/numina_5k_seeds.jsonl": {
+      "bytes": 16351048,
+      "sha256": "18cf27cc2c8ff0c232a43090454088fee4eaa8b46b31406a50b320379eee4a0a"
+    },
+    "data/interim/gpt_pairs_quality.jsonl": {
+      "bytes": 40729738,
+      "sha256": "b3b965dc56f7c0775023677dc0fdec0c4e55bcb1b8a11ea27c5b6ff29d4330ef"
+    },
+    "data/processed/manifest.json": {
+      "bytes": 1382,
+      "sha256": "bdbf99b2e1848b0a41feb51a234e70c5d85f1bf3bd860379d31f53f78c51ec84"
+    },
+    "data/processed/rlvr/fallback.parquet": {
+      "bytes": 707164,
+      "sha256": "28bfca23b2e0f4b9fdd8cb52e46730f0fc2bb580ca35993fb5105d59b250355f"
+    },
+    "data/processed/rlvr/r000.parquet": {
+      "bytes": 821210,
+      "sha256": "50489c5c29df726af65756a59d27b41fd0a1164a909556f34bd7c4bc86711ca9"
+    },
+    "data/processed/rlvr/r025.parquet": {
+      "bytes": 784864,
+      "sha256": "2d9d15d9050fa78aa2e76c137f2e868323d7d7c01b2736925f64ae9c35b6d140"
+    },
+    "data/processed/rlvr/r050.parquet": {
+      "bytes": 734606,
+      "sha256": "e5efcd57d0ebb23c046f3d4a3d415484d610b3615ca0d52ac8be7ec5376f1640"
+    },
+    "data/processed/rlvr/r075.parquet": {
+      "bytes": 674903,
+      "sha256": "da669758b067e7d64c4d0654341713070f0c66c0a352925912d3ffbb7f5f5424"
+    },
+    "data/processed/rlvr/r100.parquet": {
+      "bytes": 595176,
+      "sha256": "c7684f05a0f05c75497e61c95bee3b82290464d67576bad59e0ba98d8a30ea7c"
+    },
+    "data/processed/sft/fallback.jsonl": {
+      "bytes": 6770684,
+      "sha256": "f2d6b3316e4d20a554bc89b840a93ca3030dc953bd5b852590b8a929da28745a"
+    },
+    "data/processed/sft/raw_synthetic.jsonl": {
+      "bytes": 8682408,
+      "sha256": "404a8d23207a5226a5c2edc33d5de3dd4270019e92dcfebcd8740c0b26cbed2a"
+    },
+    "data/processed/sft/real.jsonl": {
+      "bytes": 6587863,
+      "sha256": "f8639c36856f2b627a1ad0911c41d5640c84e35b1d445c74ed6dbc7da31d404a"
+    },
+    "data/raw/gpt_pairs.jsonl": {
+      "bytes": 33340677,
+      "sha256": "65a19deae3d785d3b9251bb8186d28a5dd4f093260295adc9a30872724b21b6f"
+    }
+  },
+  "by_source": {
+    "amc_aime": 808,
+    "cn_contest": 2442,
+    "inequalities": 500,
+    "number_theory": 500,
+    "olympiads_ref": 750
+  },
+  "by_split": {
+    "development": 500,
+    "held_out_audit": 500,
+    "train": 4000
+  },
+  "generator_model": [
+    "gpt-5.4"
+  ],
+  "generator_usage": {
+    "completion_tokens": 4999275,
+    "prompt_tokens": 9207219,
+    "total_tokens": 14206494
+  },
+  "prompt_version": [
+    "concept_de_novo_v2_single_target"
+  ],
+  "quality_accept": 2838,
+  "quality_accept_rate": 0.5676,
+  "reasoning_effort": [
+    "low"
+  ],
+  "rows": 5000,
+  "solver_model": [
+    "gpt-5.4-mini"
+  ],
+  "solver_usage": {
+    "completion_tokens": 15206662,
+    "prompt_tokens": 3376241,
+    "total_tokens": 18582903
+  },
+  "unique_parent_seeds": 5000
+}
