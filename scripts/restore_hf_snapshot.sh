@@ -27,7 +27,7 @@ cp "$SNAPSHOT_DIR/canonical/numina_5k_seeds.jsonl" data/canonical/
 cp "$SNAPSHOT_DIR/pairs/gpt_pairs.jsonl" data/raw/gpt_pairs.jsonl
 cp "$SNAPSHOT_DIR/pairs/gpt_pairs_solved.jsonl" data/interim/gpt_pairs_solved.jsonl
 cp "$SNAPSHOT_DIR/pairs/gpt_pairs_quality.jsonl" data/interim/gpt_pairs_quality.jsonl
-cp "$SNAPSHOT_DIR/pairs/claude_heldout_pairs.partial_19.jsonl" data/raw/claude_heldout_pairs.jsonl
+cp "$SNAPSHOT_DIR/pairs/claude_heldout_pairs.partial.jsonl" data/raw/claude_heldout_pairs.jsonl
 cp "$SNAPSHOT_DIR/processed/rlvr/"* data/processed/rlvr/
 cp "$SNAPSHOT_DIR/processed/sft/"* data/processed/sft/
 cp "$SNAPSHOT_DIR/manifests/numina_5k_manifest.json" data/canonical/
@@ -35,5 +35,5 @@ cp "$SNAPSHOT_DIR/manifests/gpt_pairs_quality_manifest.json" data/interim/
 cp "$SNAPSHOT_DIR/manifests/replacement_views_manifest.json" data/processed/manifest.json
 cp "$SNAPSHOT_DIR/manifests/release_manifest.json" data/manifest.json
 
-echo "Snapshot restored. Claude replication can resume from 19/500 with:"
+echo "Snapshot restored. Claude replication can resume from 120/500 with:"
 echo "  zsh scripts/run_claude_replication.sh"

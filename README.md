@@ -31,7 +31,7 @@ The GPT-5.4 paired-data run is complete as of July 15, 2026:
 - six 4,000-row RLVR views (R0/R25/R50/R75/R100 and filtered real fallback);
 - three 4,000-row SFT views (real, raw synthetic, and filtered real fallback).
 
-The fallback training view retains 2,272 synthetic questions (56.8%). A cross-generator replication with Claude Sonnet 4.6 is resumable and currently contains 19/500 held-out pairs. The complete data snapshot is hosted at [lhpku20010120/Synthetic-Math-RLVR](https://huggingface.co/datasets/lhpku20010120/Synthetic-Math-RLVR).
+The fallback training view retains 2,272 synthetic questions (56.8%). A cross-generator replication with Claude Sonnet 4.6 is resumable and currently contains 120/500 held-out pairs. The complete data snapshot is hosted at [lhpku20010120/Synthetic-Math-RLVR](https://huggingface.co/datasets/lhpku20010120/Synthetic-Math-RLVR).
 
 The resumable main run is:
 
